@@ -1,0 +1,180 @@
+@media(max-width: 786px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .navbar-links {
+        width: 100%;
+        height: 40vh;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .9rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .navbar {
+        padding: 0 8vh;
+    }
+    .toggle-button{
+        width: 20px;
+        height: 14px;
+    }
+    .container {
+        height: 50vh;
+        width: 100%;
+    }
+    .year{
+        display: none;
+    }
+
+    .swiper-wrapper .swiper-slide img {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .about-me {
+        font-size: 14px;
+        padding-left: 14vh;
+    }
+    .about-heading h3{
+        font-size: 14px;
+    }
+
+    .about-heading h3 {
+        margin-right: 13vh;
+        /* margin-left: 5vh; */
+    }
+
+    .about-desc {
+        padding-right: 10vh;
+    }
+
+    .education {
+        padding: 10vh 8vh;
+        font-size: 14px;
+    }
+    
+    .degree h3 {
+        padding-bottom: 37vh;
+    }
+    
+    .edu-desc p {
+        padding-right: 12vh;
+        padding-left: 5vh;
+    }
+
+
+
+    .skills-section {
+        font-size: 16px;
+    }
+
+    .skills-section h3 {
+        padding-left: 12vh;
+        padding-bottom: 3vh;
+        font-size: 18px;
+    }
+
+    .skill-bar {
+        width: 70vh;
+        height: 10px;
+    }
+
+    .skill-per {
+        height: 10px;
+    }
+}
+@media (max-width:550px){
+    
+
+
+.container {
+    margin-top: 0.1vh;
+    height: 30vh;
+    width: 100%;
+}
+
+.swiper-wrapper .swiper-slide img {
+    height: 30vh;
+    width: 100%;
+}
+
+.about-me {
+    font-size: 12px;
+    padding-left: 5vh;
+}
+.about-heading h3{
+    font-size: 14px;
+    margin-right: 8vh;
+}
+
+.navbar {
+    padding: 0 5vh;
+}
+.brand-title{
+    font-size: 15px;
+}
+.education {
+    height: 55vh;
+    width: 100%;
+    padding: 10vh 5vh;
+    font-size: 12px;
+}
+
+.degree h3 {
+    padding-bottom: 37vh;
+}
+
+.edu-desc p {
+    padding-right: 15vh;
+    padding-bottom: 10vh;
+}
+
+
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+	color: #fff;
+    visibility: hidden;
+}
+
+.skills-section h3 {
+    padding-left: 9vh;
+    padding-bottom: 3vh;
+    font-size: 14px;
+}
+.skill-name{
+    font-size: 12px;
+}
+.skill-bar {
+    width: 35vh;
+    height: 10px;
+}
+
+.skill-per {
+    height: 10px;
+}
+.footer{
+    font-size: 12px;
+}
+}
